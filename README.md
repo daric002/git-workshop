@@ -18,6 +18,7 @@ Testrepo for a git-workshop
 ## git stuff
 
 - Branch
+- Commit
 - Tag
 - HEAD
 - Stage
@@ -43,9 +44,9 @@ Testrepo for a git-workshop
 
 ## a bit more uncommon git commands
 
-- git log
-- git rebase
-- git cherry-pick
+- `git log`
+- `git rebase`
+- `git cherry-pick`
 
 ## Other
 
