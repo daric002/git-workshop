@@ -22,6 +22,8 @@ Testrepo for a git-workshop
 - HEAD
 - Stage
 - Fork
+- Merge
+- Squash
 - Pull Request
 
 ## git strategies
@@ -32,17 +34,33 @@ Testrepo for a git-workshop
 
 ## common git commands
 
-- git fetch
-- git pull
-- git add
-- git commit
-- git push
+- `git status`
+- `git fetch`
+- `git pull`
+- `git add`
+- `git commit`
+- `git push`
 
 ## a bit more uncommon git commands
 
+- git log
 - git rebase
 - git cherry-pick
 
 ## Other
 
 Do NOT commit secrets
+
+## Handy lines
+
+Get the latest commits from main
+
+```bash
+git pull --rebase origin main
+```
+
+Review the 5 last commits
+
+```bash
+git rebase -i HEAD~5
+```
